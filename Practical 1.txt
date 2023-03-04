@@ -1,0 +1,25 @@
+﻿Practical 1
+IT549 - Deep Learning
+Gradient Descent
+
+
+*  Dataset
+      * User Dataset - This dataset contains information on users from companies' databases. It contains information about UserID, Gender, Age, Estimated Salary, and Purchased. 
+      *  50_Startups - This dataset collected data from New York, California, and Florida about 50 business Startups. The variables used in the dataset are Profit, R&D spending, Administration Spending, and Marketing Spending. 
+
+
+*  Tasks to perform 
+      *  Code your own functions for Gradient descent, and Multiple linear regression
+         * Load the dataset and define input features and the target variable.
+         * Define the cost function to calculate the error
+         * For each iteration, calculate the Hypothesis Value and difference from the actual value  
+         * Calculate the gradient and update the parameters' values (theta values).
+         * Calculate the cost function and save the value.
+      * Draw the contour plot considering the theta values and cost for each iteration.
+An example of such a contour plot is given below - 
+  
+
+      * Experiment with different learning rates while updating the theta values and analyze how the contour plot changes. 
+      * Use a python library (such as sklearn) to perform all these tasks.
+      *  Use the User database and predict whether a user will purchase the company’s newly launched product or not.
+      * Predict the profit values on the 50_startups dataset for each company.
